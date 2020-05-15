@@ -4,6 +4,7 @@ public class Car {
 
     public String brand;
     private String model;
+    public String name;
 
     public Car(String model)
     {
@@ -12,6 +13,10 @@ public class Car {
 
     public String getBrand() {
         return brand;
+    }
+
+    public String getModel(){
+        return model;
     }
 
     public Car(String model, String brand)
@@ -23,5 +28,9 @@ public class Car {
     private void changeModel(String model)
     {
         this.model = model;
+    }
+
+    public String getName() {
+        return name;
     }
 }
